@@ -12,7 +12,15 @@ function App() {
         <Dictionary />
       </main>
       <footer>
-        <p>Open-Source Code, by Vathsalya Senapathi</p>
+        <p>
+          <a
+            href="https://github.com/vsenapathi/react-dictionary"
+            target="blank"
+          >
+            Open-Source Code
+          </a>
+          , by Vathsalya Senapathi
+        </p>
       </footer>
     </div>
   );

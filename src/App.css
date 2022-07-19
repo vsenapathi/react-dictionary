@@ -1,0 +1,23 @@
+.App {
+  display: block;
+  width: 60%;
+  margin: 50px auto;
+  background-color: #212121;
+  color: white;
+  border-radius: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 100px;
+}
+
+.subtitle {
+  line-height: 2px;
+  font-size: 20px;
+}

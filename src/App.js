@@ -1,12 +1,15 @@
 import React from "react";
 import "./App.css";
+import Logo from "./Logo";
 import Dictionary from "./Dictionary";
 
 function App() {
   return (
     <div className="App container">
       <header>
-        <h1>React Dictionary</h1>
+        <h1 className="title">DICTION</h1>
+        <small> built by</small>
+        <Logo />
       </header>
       <main>
         <Dictionary />

@@ -16,6 +16,7 @@ function App() {
           <a
             href="https://github.com/vsenapathi/react-dictionary"
             target="_blank"
+            rel="nonreferrer"
           >
             Open-Source Code
           </a>

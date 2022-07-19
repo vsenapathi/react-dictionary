@@ -11,10 +11,17 @@ export default function Meaning(props) {
               {definition.definition}
               <br />
               <em>{definition.example}</em>
+              <br />{" "}
             </p>
           </div>
         );
       })}
+      <ul className="Synonyms">
+        {props.meaning.synonyms.map(function (synonym, index) {
+          return <li key={index}>{synonym}</li>;
+        })}
+      </ul>
+      ;
     </div>
   );
 }

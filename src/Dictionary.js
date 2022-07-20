@@ -21,9 +21,15 @@ export default function Dictionary() {
   }
 
   return (
-    <div className="Dictionary container">
+    <div className="Dictionary container text-center pt-5 pb-5">
       <form onSubmit={goSearch}>
-        <input type="search" id="searchbox" onChange={handleKeywordChange} />
+        <input
+          type="search"
+          id="searchbox"
+          onChange={handleKeywordChange}
+          className="rounded-pill text-center"
+          placeholder="search"
+        />
       </form>
       <Results results={results} />
     </div>

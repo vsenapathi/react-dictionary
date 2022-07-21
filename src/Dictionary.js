@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Dictionary.css";
 import axios from "axios";
 import Results from "./Results";
 
@@ -21,13 +22,13 @@ export default function Dictionary() {
   }
 
   return (
-    <div className="Dictionary container text-center pt-5 pb-5">
+    <div className="Dictionary container pt-3 pb-5">
       <form onSubmit={goSearch}>
         <input
           type="search"
           id="searchbox"
           onChange={handleKeywordChange}
-          className="rounded-pill text-center"
+          className="rounded-pill text-center d-block"
           placeholder="search"
         />
       </form>

@@ -1,23 +1,32 @@
+body {
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  color: #3a2d32;
+  background: #3a2d32;
+}
+
 .App {
   display: block;
-  width: 60%;
-  margin: 50px auto;
-  background-color: #212121;
-  color: white;
+  margin: 90px auto;
+  background: #f7ede2;
+  width: 70%;
   border-radius: 30px;
+  padding: 0 50px;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.title {
+h1 {
+  font-family: "Bodoni Moda", serif;
+  font-weight: 700;
   font-size: 100px;
 }
 
-.subtitle {
-  line-height: 2px;
-  font-size: 20px;
+a {
+  color: #f28482;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+a:hover {
+  font-size: 16px;
+  color: #f28482;
 }

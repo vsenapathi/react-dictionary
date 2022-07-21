@@ -5,37 +5,26 @@ import Dictionary from "./Dictionary";
 
 function App() {
   return (
-    <div className="App container">
-      <header className="container">
-        <div className="row">
-          <div className="col">
-            <h1 className="title text-right">DICTION</h1>
-          </div>
-          <div className="col">
-            {" "}
-            <div className="row">
-              <small> built by</small>
-            </div>
-            <div className="row">
-              <Logo />
-            </div>
-          </div>
-        </div>
+    <div className="App container-fluid">
+      <header className=" pt-5 text-center">
+        <h1>Diction.</h1>
+        <p>A Dictionary App Built In React</p>
       </header>
       <main>
         <Dictionary />
       </main>
-      <footer>
-        <p className="text-muted small pb-3 text-center">
+      <footer className="align-items-center d-flex container flex-column pb-5">
+        <p className=" small text-center">
           <a
             href="https://github.com/vsenapathi/react-dictionary"
             target="_blank"
             rel="noreferrer"
           >
             Open-Source Code
-          </a>
-          , by Vathsalya Senapathi
+          </a>{" "}
+          by Vathsalya Senapathi
         </p>
+        <Logo />
       </footer>
     </div>
   );

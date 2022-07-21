@@ -1,0 +1,41 @@
+#searchbox {
+  background: #f7ede2;
+  color: #3a2d32;
+  border: 2px solid #3a2d32;
+  box-shadow: 0;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 8px;
+  width: 500px;
+}
+
+#searchbox::placeholder {
+  color: #3a2d32;
+  font-family: "Jost", sans-serif;
+  transition: all 2s ease-in-out;
+  font-weight: 600;
+}
+
+#searchbox:focus {
+  outline: none;
+  background: #f28482;
+}
+
+h2.word {
+  font-size: 75px;
+}
+
+.audioIcon {
+  background: #f28482;
+  padding: 5px 10px;
+  border-radius: 30px;
+  color: #3a2d32;
+  transition: all 200ms ease-in-out;
+  font-size: 16px;
+}
+
+.audioIcon:hover {
+  background-color: #3a2d32;
+  color: #f28482;
+  font-size: 16px;
+}

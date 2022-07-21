@@ -19,7 +19,9 @@ h1 {
   font-weight: 700;
   font-size: 100px;
 }
-
+.subtitle {
+  color: #f28482;
+}
 a {
   color: #f28482;
   text-decoration: none;

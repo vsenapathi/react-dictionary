@@ -32,10 +32,18 @@ h2.word {
   color: #3a2d32;
   transition: all 200ms ease-in-out;
   font-size: 16px;
+  border: 2px solid #3a2d32;
 }
 
 .audioIcon:hover {
   background-color: #3a2d32;
   color: #f28482;
   font-size: 16px;
+}
+
+.Synonyms {
+  line-height: 200%;
+  background: #f28482;
+  border: 2px solid #3a2d32;
+  padding: 10px 0;
 }

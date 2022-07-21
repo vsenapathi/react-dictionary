@@ -8,7 +8,8 @@ function App() {
     <div className="App container-fluid">
       <header className=" pt-5 text-center">
         <h1>Diction.</h1>
-        <p>A Dictionary App Built In React</p>
+        <p className="d-inline">A Dictionary App Built In </p>{" "}
+        <span className="subtitle">React</span>
       </header>
       <main>
         <Dictionary />

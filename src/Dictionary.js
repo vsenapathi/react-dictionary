@@ -47,7 +47,9 @@ export default function Dictionary() {
         />
       </form>
       <Results results={results} />
-      <Photos photos={photos} />
+      <section>
+        <Photos photos={photos} />
+      </section>
     </div>
   );
 }

@@ -47,3 +47,13 @@ h2.word {
   border: 2px solid #3a2d32;
   padding: 10px 0;
 }
+
+.Photos {
+  align-items: center;
+}
+
+.Photos img {
+  border-radius: 5px;
+  border: 2px solid #3a2d32;
+  margin-bottom: 20px;
+}
